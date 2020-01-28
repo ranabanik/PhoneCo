@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c575275-aaad-4c2d-b274-2d82a547e995" name="Default Changelist" comment="" />
+    <list default="true" id="0c575275-aaad-4c2d-b274-2d82a547e995" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codes/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PhoneCo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhoneCo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/DataAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/DataAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/transferTrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/train.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +22,29 @@
     <SUITE FILE_PATH="coverage/PhoneCo$train.coverage" NAME="train Coverage Results" MODIFIED="1579535736072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PhoneCo$setup.coverage" NAME="setup Coverage Results" MODIFIED="1579534204970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/mkl-service-master/mkl-service-master" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="a9b062b7-364b-4f62-83ff-d4ea9c194ce0" />
   <component name="ProjectId" id="1WfQlRHDXl54f16RySzwGMSkFlz" />
@@ -29,9 +54,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/transferTrain.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Codes/test.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,7 +69,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.DataAnalysis">
+  <component name="RunManager" selected="Python.test">
     <configuration name="DataAnalysis" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PhoneCo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,12 +78,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codes/DataAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,28 +202,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="renameLabels" type="PythonConfigurationType" factoryName="Python">
-      <module name="PhoneCo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/renameLabels.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PhoneCo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,6 +268,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PhoneCo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codes/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python">
       <module name="PhoneCo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transferTrain" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PhoneCo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,12 +320,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transferTrain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codes/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,9 +339,8 @@
       <item itemvalue="Python.Network" />
       <item itemvalue="Python.model" />
       <item itemvalue="Python.DataLoader" />
-      <item itemvalue="Python.renameLabels" />
       <item itemvalue="Python.DataAnalysis" />
-      <item itemvalue="Python.transferTrain" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.setup" />
       <item itemvalue="Python.main" />
@@ -375,6 +401,7 @@
       <workItem from="1579968854218" duration="34163000" />
       <workItem from="1580033688532" duration="4670000" />
       <workItem from="1580082180423" duration="37000" />
+      <workItem from="1580107307423" duration="35981000" />
     </task>
     <servers />
   </component>
@@ -382,59 +409,66 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580008259248">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="781" y="316" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580222448993">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="440" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1580008259248" />
     <state x="2470" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579971103011" />
     <state x="2654" y="376" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579633578093" />
     <state x="440" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1579728334509" />
-    <state x="636" y="286" key="FileChooserDialogImpl" timestamp="1580008257088">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="781" y="316" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1580222448993" />
+    <state x="1099" y="495" width="495" height="513" key="FileChooserDialogImpl" timestamp="1580222445209">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="636" y="286" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1580008257088" />
     <state x="2715" y="357" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579971099945" />
     <state x="2980" y="476" key="FileChooserDialogImpl/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579800862804" />
     <state x="636" y="286" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1579728368993" />
-    <state width="1877" height="500" key="GridCell.Tab.0.bottom" timestamp="1580082116224">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="1099" y="495" width="495" height="513" key="FileChooserDialogImpl/67.27.2493.1413@67.27.2493.1413" timestamp="1580222445209" />
+    <state width="2447" height="549" key="GridCell.Tab.0.bottom" timestamp="1580222733868">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state width="1493" height="382" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1580008648599" />
     <state width="1877" height="500" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580082116224" />
     <state width="1493" height="160" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.2560.1440@0.0.1536.864" timestamp="1579795053810" />
     <state width="2517" height="681" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579802333716" />
     <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579816314575" />
-    <state width="1877" height="500" key="GridCell.Tab.0.center" timestamp="1580082116224">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="2447" height="549" key="GridCell.Tab.0.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1580222733868" />
+    <state width="2447" height="549" key="GridCell.Tab.0.center" timestamp="1580222733867">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state width="1493" height="382" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1580008648599" />
     <state width="1877" height="500" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580082116224" />
     <state width="1493" height="160" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.2560.1440@0.0.1536.864" timestamp="1579795053810" />
     <state width="2517" height="681" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579802333716" />
     <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579816314575" />
-    <state width="1877" height="500" key="GridCell.Tab.0.left" timestamp="1580082116224">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="2447" height="549" key="GridCell.Tab.0.center/67.27.2493.1413@67.27.2493.1413" timestamp="1580222733867" />
+    <state width="2447" height="549" key="GridCell.Tab.0.left" timestamp="1580222733867">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state width="1493" height="382" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1580008648599" />
     <state width="1877" height="500" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580082116224" />
     <state width="1493" height="160" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.2560.1440@0.0.1536.864" timestamp="1579795053810" />
     <state width="2517" height="681" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579802333716" />
     <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579816314575" />
-    <state width="1877" height="500" key="GridCell.Tab.0.right" timestamp="1580082116224">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="2447" height="549" key="GridCell.Tab.0.left/67.27.2493.1413@67.27.2493.1413" timestamp="1580222733867" />
+    <state width="2447" height="549" key="GridCell.Tab.0.right" timestamp="1580222733867">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state width="1493" height="382" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1580008648599" />
     <state width="1877" height="500" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580082116224" />
     <state width="1493" height="160" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.2560.1440@0.0.1536.864" timestamp="1579795053810" />
     <state width="2517" height="681" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579802333716" />
     <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579816314575" />
-    <state x="44" y="86" key="SettingsEditor" timestamp="1579728372398">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2447" height="549" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1580222733867" />
+    <state x="138" y="168" key="SettingsEditor" timestamp="1580116052218">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1579539105963" />
     <state x="2382" y="304" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579540060631" />
     <state x="2536" y="405" key="SettingsEditor/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1579629683233" />
     <state x="44" y="86" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579728372398" />
+    <state x="138" y="168" key="SettingsEditor/67.27.2493.1413@67.27.2493.1413" timestamp="1580116052218" />
     <state x="2501" y="323" key="com.intellij.ide.util.TipDialog" timestamp="1580062226752">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -449,13 +483,14 @@
     <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1579726077838" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PhoneCo$DataAnalysis.coverage" NAME="DataAnalysis Coverage Results" MODIFIED="1580081520360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PhoneCo$Network.coverage" NAME="Network Coverage Results" MODIFIED="1579726183923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PhoneCo$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1579971893693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/PhoneCo$train.coverage" NAME="train Coverage Results" MODIFIED="1579983980940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PhoneCo$transferTrain.coverage" NAME="transferTrain Coverage Results" MODIFIED="1580064281513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PhoneCo$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1580008179195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/PhoneCo$model.coverage" NAME="model Coverage Results" MODIFIED="1579983457980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/PhoneCo$DataLoader.coverage" NAME="DataLoader Coverage Results" MODIFIED="1579809989614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhoneCo$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1580008179195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/PhoneCo$Output.coverage" NAME="test Coverage Results" MODIFIED="1580222731951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codes" />
+    <SUITE FILE_PATH="coverage/PhoneCo$DataAnalysis.coverage" NAME="DataAnalysis Coverage Results" MODIFIED="1580195894104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codes" />
+    <SUITE FILE_PATH="coverage/PhoneCo$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1579971893693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/PhoneCo$model.coverage" NAME="model Coverage Results" MODIFIED="1579983457980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/PhoneCo$transferTrain.coverage" NAME="transferTrain Coverage Results" MODIFIED="1580182914429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codes" />
   </component>
 </project>
